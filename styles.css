@@ -1,0 +1,72 @@
+    h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(165, 0, 242);
+    background:black;
+    font-size:40 px;
+    margin: 20 px; 
+    padding: 20px;
+    text-align: center;
+    }
+
+    body{
+       background-color:rgb(207, 229, 236);
+    }
+    
+    .listas{
+        color:rgb(244, 244, 244);
+        background-color:rgb(188, 15, 246);
+        font-size: 20;
+  
+    } 
+    .listas2{
+        color:rgb(252, 251, 252);
+        background-color:rgb(255, 106, 223);
+        font-size: 20;
+  
+    }   
+    li{
+        font-family:'Times New Roman', Times, serif;
+        font-weight: bold;
+        text-align: center;
+
+    }
+    .cuerpo{
+        
+        background-color:white;
+        color: rgb(5, 1, 246);
+        font-size: 20;
+  
+    } 
+    img{
+        border-radius: 15px;
+        box-shadow: 5px 5px 15px rgb(150, 150, 150);
+    
+        
+    }
+    a[href*=".mx"] {
+        background-color: rgb(254, 204, 5);
+    }
+
+    .texto{
+        font-family:'Courier New', Courier, monospace;
+        background-color: violet;
+        text-align: center;
+    }
+    .imagen{
+        margin-top: auto;
+        padding: 10px;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+    }
+
+    p{
+        color:grey;
+        font-size: 18px;
+
+
+    }
+    .precio{
+        color:green;
+        font-size: 18px;
+    }
