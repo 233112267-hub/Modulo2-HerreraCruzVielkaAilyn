@@ -1,0 +1,46 @@
+    h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(165, 0, 242);
+    background:black;
+    font-size:40 px;
+    margin: 20 px; 
+    padding: 20px;
+    text-align: center;
+    }
+
+p {
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+.parrafo {
+    color: red;
+}
+
+
+#informacion {
+    color: blue;
+}
+
+/* Section */
+section {
+    background-color: lightgray;
+    position: relative;
+}
+
+/* Contenedor */
+.contenedor {
+
+    background-color: lightblue;
+    position: relative;
+}
+
+/* Caja pequeña en esquina inferior derecha */
+.caja {
+    width: 100px;
+    height: 100px;
+    background-color: lightcoral;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
