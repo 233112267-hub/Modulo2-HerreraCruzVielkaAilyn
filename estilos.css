@@ -1,27 +1,24 @@
 /*Este es el menu de mi proyecto pero falta realizar cambios en el acomodo*/
-.menu {
+.navbar {
     width: 100%;
     display: flex;
-    justify-content: flex-start; /*justify-content  y flex uso flexbox*/
+    /*justify-content: flex-start; justify-content  y flex uso flexbox*/
     align-items: center;          /*align-items  uso flexbox*/  
     padding: 10px 30px;
     background-color: #fff;
     gap: 20px;
+    padding: 10px 30px;
     }
 /*enlace y text-decoration:none es para que no sea vea la linea*/
-a{
-    color: black;
-    font-weight: bold;
-    font-size: 15px;
-    text-decoration: none;
-    }
+.navbar a{
+    color:black;
+    font-weight:bold;
+    font-size:15px;
+    text-decoration:none;
+}
 /*enlace con hover cuando cambie el estilo al darle click al boton*/
-a:hover{
-    color: rgb(1, 74, 44);
-    font-weight: bold;
-    font-size: 15px;
-    text-decoration: none;
-
+.navbar a:hover{
+    color:rgb(1,74,44);
 }
 /*Aclaracion:Este no es un boton.pbutton es una clase para el  parrafo de menu y reward que esta ubicado en la parte de menu 
     flex-wrap: nowrap; se acomoda en una linea solamente  en uno*/
@@ -121,7 +118,6 @@ el elemento linear gradient es para degradar uno o mas colores puede ser horizon
 /*Orden para la seccion de los dos botones en la seccion verde*/
 #orden{
     display: flex;
-    justify-content: center; /*justify-content  y flex uso flexbox*/
     align-items: center;     /*align-items  uso flexbox*/  
     display:flex;
     gap: 45px;
@@ -129,8 +125,8 @@ el elemento linear gradient es para degradar uno o mas colores puede ser horizon
 /*Orden para la seccion del boton ubicado en la seccion verde*/
 #orden2{
     display: flex;
-    justify-content:  space-between; /*justify-content  y flex uso flexbox*/
     align-items: center;             /*align-items  uso flexbox*/  
+    margin-left: auto;
     }
 /*Acomodo de beneficio*/
 .beneficio {
